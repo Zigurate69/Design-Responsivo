@@ -1,0 +1,32 @@
+/* Estilo para Smartphones */
+@media(max-width:600px) {
+    body {
+        background-color: green;
+    }
+    header h1 {
+        font-size: 12px;
+    }
+    section img {
+        width: 100%;
+    }
+}
+
+/* Estilo para Tablets */
+@media (min-width: 601px) and (max-width: 900px) {
+    section img {
+        width: 50%;
+    }
+    body {
+        background-color: blue;
+    } 
+}
+
+/*Estilo para telas grandes (desktop) */
+@media (min-width: 901px) {
+    section img {
+        width: 30%;
+    }
+    body {
+        background-color: yellow;
+    }
+}
